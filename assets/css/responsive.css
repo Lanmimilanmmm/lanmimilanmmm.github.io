@@ -1,0 +1,34 @@
+@media screen and (max-width:1200px) {
+    .menu sticky-menu {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width:992px) {
+
+    #about .columns_wrap,
+    #home .columns_wrap,
+    .feature_wrap {
+        grid-template-columns: 1fr;
+    }
+
+    .flex-between:not(.navigation>.flex-between) {
+        justify-content: center;
+    }
+
+    #contact .col {
+        width: 100%;
+    }
+
+    .principal_img {
+        text-align: center;
+    }
+
+    .s_contents_wrap .item_right img {
+        width: 100%;
+    }
+}
